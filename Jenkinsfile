@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Verify') {
             steps {
-                sh 'echo "Hello World!"'
+                sh 'escho "Hello World!"'
             }
         }
         stage('Install') {
