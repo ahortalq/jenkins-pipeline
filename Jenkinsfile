@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Compile') {
             steps {
-                sh 'echo "Hello World!"'
+                sh 'escho "Hello World!"'
             }
         }
         stage('Test') {
@@ -33,7 +33,7 @@ pipeline {
         }
         stage('Publish') {
             steps {
-                sh 'escho "Hello World!"'
+                sh 'echo "Hello World!"'
             }
         }
     }
