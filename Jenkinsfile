@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Compile') {
             steps {
-                sh 'escho "Hello World!"'
+                sh 'echo "Hello World!"'
             }
         }
         stage('Test') {
